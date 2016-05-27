@@ -67,21 +67,45 @@
                 <div class="panel-body">
                   
                   <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-12">
 
                     <!-- Trigger the modal with a button -->
                     <div class="row">
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro1.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
                     </div>
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro2.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
                     </div>
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro3.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
                     </div>
-                    <div class="col-md-4">
-                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro4.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro5.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro6.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro7.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro8.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/pro9.jpg" class="img-responsive"></a>
+                      <p>Judul &nbsp : </p>
                     </div>
                   </div>                    
                 
