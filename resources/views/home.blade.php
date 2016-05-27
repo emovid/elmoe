@@ -68,25 +68,22 @@
                   
                   <div class="row">
                   <div class="col-md-8">
-                    <h2>The Year of Responsive Design.</h2>
-                    2013 was marked as the year of Responsive Web Design (RWD). The Web is filled with big brands, galleries and magical examples that media queries demonstrate the glory of responsive design.
-                    <br><br>
-                    <button class="btn btn-default">More</button>
-                  </div> 
-                  <div class="col col-sm-4">
-                    <a href="#"><img src="//placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
-                    <div class="text-muted"><small>Aug 15 / John Pierce</small></div>
-                    <p>
-                    Web design has come a long way since 1999.
-                    </p>
-                    <hr>
-                    <a href="#"><img src="//placehold.it/300x120/77CCDD/66BBCC" class="img-responsive"></a>
-                    <div class="text-muted"><small>Aug 15 / Wilson Traiker</small></div>
-                    <p>
-                    The "flat" look was a big trend this year.
-                    </p>
-                  </div>   
-                </div>
+
+                    <!-- Trigger the modal with a button -->
+                    <div class="row">
+                    <div class="col-md-4">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/book1.jpg" class="img-responsive"></a>
+                    </div>
+                  </div>                    
                 
                   <hr>
                   
@@ -194,7 +191,31 @@
                     </div>
                   </div>
                   
-                  
+                  <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Modal Header</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="col-xs-4">
+                              <img src="img/book1.jpg" class="img-responsive">
+                            </div>
+                            <div class=col-xs-8>
+                              lalalalalala
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
                 
                   </div><!--/panel-body-->
                 </div><!--/panel-->
