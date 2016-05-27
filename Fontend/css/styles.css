@@ -10,7 +10,7 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 header {
-	min-height:180px;
+	min-height:100px;
   	margin-bottom:5px;
 }
 
@@ -151,8 +151,9 @@ h3.highlight  {
 }
 
 footer {
+    
 	height:50px;
-  	background-color:#dfdfdf;
+/*  	background-color:#dfdfdf;*/
   	color:#888;
   	margin-top:20px;
 }

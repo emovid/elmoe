@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Elmoe - Login</title>
+    <!--
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+-->
+    <link href="img/ugm.ico" rel="shortcut icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--    <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>-->
+
+    <!--    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top: 150px;vertical-align: middle;">-->
+    <nav class="navbar navbar-static">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" target="ext"><b>Elmoe</b></a>
+                <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="fa fa-navicon"></span>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-right navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                        <ul class="dropdown-menu" style="padding:12px;">
+                            <form class="form-inline">
+                                <button type="submit" class="btn btn-default pull-right"><i class="fa fa-search"></i></button>
+                                <input type="text" class="form-control pull-left" placeholder="Search">
+                            </form>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Login</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /.navbar -->
+
+    <div style="background:">
+        <div class="modal-dialog" style="margin-top: 100px;">
+            <div class="loginmodal-container">
+                <h1>Elmoe</h1>
+                <br>
+                <p style="text-align:center;">Silahkan login menggunakan email ugm</p>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="text" name="user" placeholder="Username">
+                    <input type="password" name="pass" placeholder="Password">
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                </form>
+
+                <div class="login-help">
+                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="vertical-align:bottom !important;margin-top: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>© Universitas Gadjah Mada 2016</h5></div>
+            </div>
+        </div>
+    </footer>
+</body>
