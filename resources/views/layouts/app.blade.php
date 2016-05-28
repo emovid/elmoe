@@ -19,7 +19,7 @@
 <nav class="navbar navbar-static">
    <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="{{ url('/') }}" target="ext"><b>Elmoe</b></a>
+      <a class="navbar-brand" href="{{ url('/') }}"><b>Elmoe</b></a>
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="fa fa-navicon"></span>
       </a>

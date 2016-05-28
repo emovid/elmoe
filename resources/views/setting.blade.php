@@ -42,7 +42,7 @@
             <!-- right content column-->
             <div class="col-md-10" id="content">
                 <div class="panel">
-                <div class="panel-heading" style="background-color:#111;color:#fff;">Setting</div>   
+                <div class="panel-heading" style="background-color:#555;color:#fff;">Setting</div>   
                 <div class="panel-body">
                   
                   <div class="row">
@@ -50,26 +50,26 @@
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">Nama Lengkap</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" value={{ Auth::user()->name }} readonly="">
+                                        <input type="text" class="form-control" value="{{ Auth::user()->name }}" readonly="">
                                     </div>
                                 </div>
                                 
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">NIM</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" value={{ Auth::user()->nim }} readonly="">
+                                        <input type="text" class="form-control" value="{{ Auth::user()->nim }}" readonly="">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">Fakultas</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" value={{ Auth::user()->fakultas }} readonly="">
+                                        <input type="text" class="form-control" value="{{ Auth::user()->fakultas }}" readonly="">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-3 control-label">Minat</label>
                                     <div class="col-sm-8">
-                                        <input type="text" class="form-control" value={{ Auth::user()->minat }}>
+                                        <input type="text" class="form-control" value="{{ Auth::user()->minat }}">
                                     </div>
                                 </div>
                                 
@@ -78,7 +78,12 @@
                                 <div class="form-group">
                                     <div class="col-sm-offset-3 col-sm-5">
                                         <button type="submit" class="btn btn-primary"><i class="entypo-check"></i> Simpan</button>
-                                        <button class="btn btn-teal"><i class="entypo-check" onclick="goBack()"></i> Kembali</button>
+                                        <button class="btn btn-teal">
+<!--                                          <i class="entypo-check" onclick="goBack()"></i> -->
+                                          <a href="{{URL::previous()}}" style="color:#555 !important; text-decoration:none !important">
+                                          Kembali
+                                          </a>
+                                      </button>
                                     </div>
                                 </div>
                             </form>
