@@ -10,7 +10,6 @@
     </div>
   </div>
 </header>
-
 <!-- Begin Body -->
 <div class="container">
   <div class="no-gutter row">
@@ -40,11 +39,9 @@
             </li>
           </ul>
           <hr>
-
           <div class="col col-span-12">
             <a style="vertical-align: middle"><i class=" fa fa-2x fa-envelope-o"></i>&nbsp;elmoe@ugm.ac.id</a>
           </div>
-
         </div>
         <!--/panel body-->
       </div>
@@ -62,7 +59,6 @@
             <h3><a>{{ Auth::user()->name }}</a></h3>
             <h4>{{ Auth::user()->nim }}</h4>
             <h4>{{ Auth::user()->fakultas }}</h4>
-
 
             <h4>Peminatan : <a>{{ Auth::user()->minat }}</a> </h4>
           </div>
@@ -92,9 +88,6 @@
             <div class="col-md-12">
               <div class="row">
                 @foreach ($booksList as $bookView)
-                <!-- Trigger the modal with a button -->
-
-
                 <div class="col-md-3">
                   <a href="#" data-toggle="modal" data-target="#myModal<?php echo $bookView->id_book;?>"><img src="img/pro<?php echo $bookView->id_book;?>.jpg" class="img-responsive"></a>
                   <br>
@@ -130,22 +123,17 @@
                   <br>
                 </div>
               </div>
-
-
-
               @foreach ($booksList as $bookView)
               <!-- Modal -->
               <div id="myModal<?php echo $bookView->id_book;?>" class="modal fade" role="dialog">
                 <div class="modal-dialog">
 
                   <!-- Modal content-->
-
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
                       <h4 class="modal-title">Detail Buku</h4>
                     </div>
-                    
                       <div class="col-xs-4">
                         <img src="img/pro<?php echo $bookView->id_book;?>.jpg" class="img-responsive">
                       </div>
@@ -186,7 +174,6 @@
                           </tbody>
                         </table>
                       </div>
-                    
                     <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -196,9 +183,6 @@
               </div>
               @endforeach
             </div>
-
-
-
             <!--/panel-body-->
           </div>
           <!--/panel-->
